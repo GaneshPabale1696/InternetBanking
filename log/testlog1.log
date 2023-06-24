@@ -410,3 +410,18 @@
 2023-06-24 00:17:30,116 [main] INFO ebanking - password provided
 2023-06-24 00:17:40,812 [main] INFO ebanking - User name is provided
 2023-06-24 00:17:40,924 [main] INFO ebanking - Passsword is provided
+2023-06-24 05:41:47,083 [main] INFO ebanking - URL is opened
+2023-06-24 05:41:47,945 [main] INFO ebanking - Entered UserName
+2023-06-24 05:41:48,150 [main] INFO ebanking - Entered Password
+2023-06-24 05:41:59,382 [main] INFO ebanking - user name provided
+2023-06-24 05:41:59,481 [main] INFO ebanking - password provided
+2023-06-24 05:42:05,911 [main] INFO ebanking - user name provided
+2023-06-24 05:42:06,014 [main] INFO ebanking - password provided
+2023-06-24 05:42:11,327 [main] INFO ebanking - user name provided
+2023-06-24 05:42:11,558 [main] INFO ebanking - password provided
+2023-06-24 05:42:18,144 [main] INFO ebanking - user name provided
+2023-06-24 05:42:18,531 [main] INFO ebanking - password provided
+2023-06-24 05:42:26,378 [main] INFO ebanking - user name provided
+2023-06-24 05:42:26,655 [main] INFO ebanking - password provided
+2023-06-24 05:42:41,078 [main] INFO ebanking - User name is provided
+2023-06-24 05:42:41,225 [main] INFO ebanking - Passsword is provided

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="7" passed="0" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-24T00:16:46 PDT" name="inetBanking" finished-at="2023-06-24T00:17:45 PDT" duration-ms="58583">
+  <suite started-at="2023-06-24T05:41:37 PDT" name="inetBanking" finished-at="2023-06-24T05:42:46 PDT" duration-ms="69276">
     <groups>
     </groups>
-    <test started-at="2023-06-24T00:16:46 PDT" name="BankingApp Test" finished-at="2023-06-24T00:17:45 PDT" duration-ms="58583">
+    <test started-at="2023-06-24T05:41:37 PDT" name="BankingApp Test" finished-at="2023-06-24T05:42:46 PDT" duration-ms="69276">
       <class name="com.inetBanking.testCases.TC_AddCustomerTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_AddCustomerTest_003@49438269]" started-at="2023-06-24T00:17:36 PDT" name="setup" finished-at="2023-06-24T00:17:40 PDT" duration-ms="4607" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_AddCustomerTest_003@49438269]" started-at="2023-06-24T05:42:35 PDT" name="setup" finished-at="2023-06-24T05:42:40 PDT" duration-ms="4833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomerTest_003@49438269]" started-at="2023-06-24T00:17:40 PDT" name="addNewCustomer" finished-at="2023-06-24T00:17:44 PDT" duration-ms="3812" status="FAIL">
+        <test-method signature="addNewCustomer()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomerTest_003@49438269]" started-at="2023-06-24T05:42:40 PDT" name="addNewCustomer" finished-at="2023-06-24T05:42:45 PDT" duration-ms="4932" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : User is not valid}
@@ -26,9 +26,9 @@
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a6c38565e50e4c30cf2a44553e3b1058, findElement {using=xpath, value=//a[normalize-space()='New Customer']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49252/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a6c38565e50e4c30cf2a44553e3b1058]]>
+Command: [574ccb4bc3436f3832222ef24558cb91, findElement {using=xpath, value=//a[normalize-space()='New Customer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58509}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58509/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 574ccb4bc3436f3832222ef24558cb91]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
@@ -36,9 +36,9 @@ Session ID: a6c38565e50e4c30cf2a44553e3b1058]]>
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a6c38565e50e4c30cf2a44553e3b1058, findElement {using=xpath, value=//a[normalize-space()='New Customer']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49252/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a6c38565e50e4c30cf2a44553e3b1058
+Command: [574ccb4bc3436f3832222ef24558cb91, findElement {using=xpath, value=//a[normalize-space()='New Customer']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58509}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58509/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 574ccb4bc3436f3832222ef24558cb91
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
@@ -86,13 +86,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomerTest_003@49438269]" started-at="2023-06-24T00:17:44 PDT" name="tearDown" finished-at="2023-06-24T00:17:45 PDT" duration-ms="890" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomerTest_003@49438269]" started-at="2023-06-24T05:42:45 PDT" name="tearDown" finished-at="2023-06-24T05:42:46 PDT" duration-ms="868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.inetBanking.testCases.TC_AddCustomerTest_003 -->
       <class name="com.inetBanking.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginTest_001@4d1c00d0]" started-at="2023-06-24T00:16:47 PDT" name="setup" finished-at="2023-06-24T00:16:54 PDT" duration-ms="7527" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginTest_001@4d1c00d0]" started-at="2023-06-24T05:41:37 PDT" name="setup" finished-at="2023-06-24T05:41:46 PDT" duration-ms="9132" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest_001@4d1c00d0]" started-at="2023-06-24T00:16:54 PDT" name="loginTest" finished-at="2023-06-24T00:16:56 PDT" duration-ms="1312" status="FAIL">
+        <test-method signature="loginTest()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest_001@4d1c00d0]" started-at="2023-06-24T05:41:47 PDT" name="loginTest" finished-at="2023-06-24T05:41:48 PDT" duration-ms="1729" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : User is not valid}
@@ -111,9 +111,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [565e3d98409b6a047172892389372756, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65444/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 565e3d98409b6a047172892389372756]]>
+Command: [5e2253c5272a4abf498cf41f7cde7428, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58261/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e2253c5272a4abf498cf41f7cde7428]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
@@ -121,9 +121,9 @@ Session ID: 565e3d98409b6a047172892389372756]]>
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [565e3d98409b6a047172892389372756, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65444/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 565e3d98409b6a047172892389372756
+Command: [5e2253c5272a4abf498cf41f7cde7428, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Ganesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58261/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e2253c5272a4abf498cf41f7cde7428
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
@@ -166,13 +166,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest_001@4d1c00d0]" started-at="2023-06-24T00:16:56 PDT" name="tearDown" finished-at="2023-06-24T00:16:57 PDT" duration-ms="871" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_LoginTest_001@4d1c00d0]" started-at="2023-06-24T05:41:48 PDT" name="tearDown" finished-at="2023-06-24T05:41:49 PDT" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.inetBanking.testCases.TC_LoginTest_001 -->
       <class name="com.inetBanking.testCases.TC_LoginDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T00:16:57 PDT" name="setup" finished-at="2023-06-24T00:17:01 PDT" duration-ms="4400" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T05:41:49 PDT" name="setup" finished-at="2023-06-24T05:41:56 PDT" duration-ms="7029" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,7 +183,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T00:17:03 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T00:17:09 PDT" duration-ms="6098" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T05:41:59 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T05:42:05 PDT" duration-ms="6367" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -239,7 +239,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T00:17:09 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T00:17:17 PDT" duration-ms="8249" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T05:42:05 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T05:42:11 PDT" duration-ms="5551" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -295,7 +295,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T00:17:17 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T00:17:23 PDT" duration-ms="5948" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T05:42:11 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T05:42:18 PDT" duration-ms="6851" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -351,7 +351,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T00:17:23 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T00:17:29 PDT" duration-ms="5469" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T05:42:18 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T05:42:26 PDT" duration-ms="8180" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -407,7 +407,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T00:17:29 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T00:17:34 PDT" duration-ms="5500" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T05:42:26 PDT" name="loginDDT" data-provider="LoginData" finished-at="2023-06-24T05:42:33 PDT" duration-ms="6988" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -463,7 +463,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T00:17:34 PDT" name="tearDown" finished-at="2023-06-24T00:17:36 PDT" duration-ms="1080" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_LoginDDT_002@367ffa75]" started-at="2023-06-24T05:42:33 PDT" name="tearDown" finished-at="2023-06-24T05:42:35 PDT" duration-ms="2656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
